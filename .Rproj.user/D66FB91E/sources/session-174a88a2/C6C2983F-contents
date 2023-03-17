@@ -1,0 +1,33 @@
+baseURL: https://lauraleechu.live
+languageCode: en-us
+theme: hugo-digital-garden-theme
+params:
+  description: Hi! I'm Laura :)
+  initials: L
+  name: Laura Lee-Chu
+menu:
+  main:
+    - name: Projects
+      url: /projects/
+      weight: 2
+    - name: Resume
+      url: /website_resume.pdf/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 1
+markup:
+  defaultMarkdownHandler: goldmark
+#   goldmark:
+#     extensions:
+#       definitionList: yes
+#       footnote: yes
+#       linkify: yes
+#       strikethrough: yes
+#       table: yes
+#       taskList: yes
+#       typographer: yes
+#     renderer:
+#       unsafe: yes
+  highlight:
+    style: monokailight
