@@ -15,13 +15,14 @@ menu:
       url: /projects/
       weight: 2
     - name: Resume
-      url: /website_resume.pdf/
+      url: /resume.pdf/
       weight: 3
     - name: About
       url: /about/
       weight: 1
-markup:
-  defaultMarkdownHandler: goldmark
+
+# markup:
+#   defaultMarkdownHandler: goldmark
 #   goldmark:
 #     extensions:
 #       definitionList: yes
@@ -33,5 +34,5 @@ markup:
 #       typographer: yes
 #     renderer:
 #       unsafe: yes
-  highlight:
-    style: monokailight
+  # highlight:
+  #   style: monokailight
