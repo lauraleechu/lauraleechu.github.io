@@ -6,7 +6,6 @@ baseURL: http://lauraleechu.github.io
 languageCode: en-us
 theme: hugo-digital-garden-theme
 params:
-  description: under construction
   initials: L
   name: Laura Lee-Chu
 menu:
